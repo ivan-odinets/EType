@@ -1,0 +1,13 @@
+#######################################
+# Syntax Coloring Map For Test
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+EType	KEYWORD1	EType
+EByte	KEYWORD1	EByte
+EInt	KEYWORD1	EInt
+EString	KEYWORD1	EString
+EIPAddress	KEYWORD1	EIPAddress
