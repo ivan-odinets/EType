@@ -22,44 +22,6 @@
 
 /*
  * ----------------------------------------------------------------------------
- *  byte
- *  
- */
-
-/*byte_EEPROM::byte_EEPROM(int offset) {
-  m_offset = offset;
-  m_value = EEPROM.read(m_offset);
-}
-void byte_EEPROM::write(byte value)
-{
-  m_value = value;
-  EEPROM.write(m_offset,m_value);
-  #ifdef ESP8266
-  EEPROM.commit();
-  #endif
-}
-
-/*
- * ----------------------------------------------------------------------------
- *  int
- *  
- */
-
-/*byte_EEPROM::byte_EEPROM(int offset) {
-  m_offset = offset;
-//  m_value = EEPROM.read(m_offset);
-}
-void byte_EEPROM::write(byte value)
-{
-  m_value = value;
-//  EEPROM.write(m_offset,m_value);
-  #ifdef ESP8266
-  EEPROM.commit();
-  #endif
-}*/
-
-/*
- * ----------------------------------------------------------------------------
  *  string (fixed length)
  *  
  */
